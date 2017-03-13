@@ -1,4 +1,4 @@
-var {mongoose} = require("./db/mongoose-local");
+var {mongoose} = require("./db/mongoose");
 
 const _ = require("lodash");
 const express = require("express");
