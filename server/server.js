@@ -1,3 +1,5 @@
+// Change the mongoose file before local use
+// and before pushing to heroku.
 var {mongoose} = require("./db/mongoose");
 
 const _ = require("lodash");
