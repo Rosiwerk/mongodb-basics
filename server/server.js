@@ -1,12 +1,11 @@
-// Change the mongoose file before local use
-// and before pushing to heroku.
-var {mongoose} = require("./db/mongoose");
+require("./config/config");
 
 const _ = require("lodash");
 const express = require("express");
 const bodyParser = require("body-parser");
 const {ObjectID} = require("mongodb");
 
+var {mongoose} = require("./db/mongoose");
 var {Todo} = require("./models/todo");
 var {User} = require("./models/user");
 
